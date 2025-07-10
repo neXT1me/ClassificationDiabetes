@@ -8,6 +8,7 @@ The classifier is based on logistic regression with model training using gradien
 
 ## Data
 
+Used signs:
 - Pregnancy
 - Glucose
 - Arterial pressure
