@@ -1,20 +1,20 @@
 # ClassificationDiabetes
 
-The task of this classifier is to predict diabetes mellitus.
+## Обзор
 
-## Classifier
+Этот проект реализует модель классификации диабета с использованием набора данных, содержащего различные медицинские показатели, такие как количество беременностей, уровень глюкозы, артериальное давление, толщина кожной складки, инсулин, индекс массы тела, функция наследственности и возраст. Проект использует Python, Pandas, NumPy, Matplotlib и Scikit-learn для предобработки данных, обнаружения несоответствий типов данных, нормализации признаков и обучения модели логистической регрессии для предсказания диагноза диабета.
 
-The classifier is based on logistic regression with model training using gradient descent.
+## Возможности
 
-## Data
+- Загрузка и анализ данных из файла Excel.
+- Обнаружение несоответствий типов данных и пропущенных значений.
+- Нормализация данных и разделение на тренировочную и тестовую выборки.
+- Обучение модели логистической регрессии и оценка точности.
+- Визуализация потерь и метрик точности.
 
-Used signs:
-- Pregnancy
-- Glucose
-- Arterial pressure
-- Caesarean section thickness
-- Insulin
-- Body mass index
-- Heredity
-- Age
-- Diagnosis
+## Зависимости
+
+- `pandas`
+- `numpy`
+- `matplotlib`
+- `sklearn`
